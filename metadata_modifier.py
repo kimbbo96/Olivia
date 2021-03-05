@@ -62,4 +62,4 @@ if __name__ == '__main__':
     new_image_path = sys.argv[3]
     chunks = create_chunk_stream(chunks_path)
     modifyexif(original_image_path, chunks, new_image_path)
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
